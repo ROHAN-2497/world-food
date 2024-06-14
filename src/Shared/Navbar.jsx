@@ -1,7 +1,11 @@
 const Navbar = () => {
   return (
-    <div>
-      <div className="nav"></div>
+    <div className="content">
+      <nav>
+        <div></div>
+        <div></div>
+        <button></button>
+      </nav>{" "}
     </div>
   );
 };
