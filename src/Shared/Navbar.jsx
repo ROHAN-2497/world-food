@@ -4,7 +4,7 @@ const Navbar = () => {
       <nav>
         <div></div>
         <div></div>
-        sd{" "}
+        sd{" "}sdsd
       </nav>{" "}
     </div>
   );
