@@ -18,7 +18,7 @@ const Navbar = () => {
     { id: 5, text: "Contact" },
   ];
   return (
-    <div className="bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className="bg-black flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
       {/* Logo */}
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">World Food.</h1>
 
