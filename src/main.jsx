@@ -5,7 +5,7 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./Router/Routes";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <React.StrictMode className="max-w-xl">
     <RouterProvider router={router} />
   </React.StrictMode>
 );

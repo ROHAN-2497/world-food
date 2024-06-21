@@ -1,7 +1,9 @@
+import Banner from "@/components/Banner/Banner";
+
 const Home = () => {
   return (
     <div>
-      <img src="/public/meZe5dADRvChZPDSwEdD_0S9A7987.webp" alt="" />
+      <Banner />
     </div>
   );
 };
