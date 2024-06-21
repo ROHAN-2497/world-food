@@ -8,7 +8,7 @@ import {
 import { GoMoveToTop } from "react-icons/go";
 const Footer = () => {
   return (
-    <div className="flex text-white items-center justify-between  bg-black">
+    <div className="flex text-white items-center justify-between mt-20 bg-black">
       <div className="flex flex-col justify-center gap-4  p-8">
         <div className="flex gap-4 py-2 ">
           <FaFacebookSquare />

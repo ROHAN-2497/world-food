@@ -18,16 +18,16 @@ const Navbar = () => {
     { id: 5, text: "Contact" },
   ];
   return (
-    <div className=" flex justify-between items-center h-24  px-4 bg-blue-200 text-white">
+    <div className=" flex justify-between items-center h-24  px-4 bg-black text-white">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">World Food.</h1>
+      <h1 className="w-full text-3xl font-bold text-white">World Food.</h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex pr-20">
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 divide-y-4 divide-gray-400  m-2 cursor-pointer "
+            className="p-4 hover:bg-[#f5ce35] rounded-xl m-2 cursor-pointer duration-300 hover:text-black"
           >
             {item.text}
           </li>
