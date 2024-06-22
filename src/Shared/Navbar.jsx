@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <div className=" flex justify-between items-center h-24  px-4 bg-black text-white">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-bold text-white">World Food.</h1>
+      <h1 className="w-full text-3xl font-bold text-white">
+        World Food<span className="text-[#f5ce35]">.</span>
+      </h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex  pr-20">
