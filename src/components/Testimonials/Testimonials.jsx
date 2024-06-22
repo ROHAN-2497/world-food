@@ -6,6 +6,7 @@ const Testimonials = () => {
         <h2 className="text-3xl">FRESH FROM OUR COMMUNITY</h2>
         <h4 className="text-1xl font-medium">View All</h4>
       </div>
+      <div></div>
     </div>
   );
 };
