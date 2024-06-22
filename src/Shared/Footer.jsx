@@ -8,17 +8,16 @@ import {
 import { GoMoveToTop } from "react-icons/go";
 const Footer = () => {
   return (
-    <div className="flex text-white items-center justify-between mt-20 bg-black">
-      <div className="flex justify-center gap-4 p-8">
-        <div className="flex gap-4 py-2 ">
+    <div className="flex flex-wrap text-white items-center justify-between mt-20 bg-black">
+      <div className="flex flex-col justify-center gap-4 p-8">
+        <div className="flex gap-4 py-2 text-3xl ">
           <FaFacebookSquare />
           <FaInstagramSquare />
           <FaTwitterSquare />
           <FaYoutubeSquare />
-          <FaYoutubeSquare />
           <div className="flex px-4 gap-4">
             <GoMoveToTop></GoMoveToTop>{" "}
-            <h3 className="text-1xl font-semibold">Back To Top</h3>
+            <h3 className="text-xl font-semibold">Back To Top</h3>
           </div>
         </div>
         <div className="flex gap-4">

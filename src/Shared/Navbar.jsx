@@ -23,7 +23,7 @@ const Navbar = () => {
       <h1 className="w-full text-3xl font-bold text-white">World Food.</h1>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex pr-20">
+      <ul className="hidden md:flex  pr-20">
         {navItems.map((item) => (
           <li
             key={item.id}
