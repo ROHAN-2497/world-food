@@ -4,34 +4,34 @@
     "name": "Emily Johnson",
     "rating": 5,
     "review": "Absolutely loved the food and ambiance! The service was top-notch, and I can't wait to come back again.",
-    "profile_image": "https://example.com/profiles/emily_johnson.jpg"
+    "profile_image": "/public/burger.png"
   },
   {
     "_id":2,
     "name": "John Smith",
     "rating": 4,
     "review": "Great experience overall. The dishes were delicious, especially the desserts. Would recommend!",
-    "profile_image": "https://example.com/profiles/john_smith.jpg"
+    "profile_image": "/public/burger.png"
   },
   {
     "_id":3,
     "name": "Sarah Brown",
     "rating": 5,
     "review": "Fantastic restaurant! The staff was friendly and accommodating. The food was fresh and flavorful. Highly recommended!",
-    "profile_image": "https://example.com/profiles/sarah_brown.jpg"
+    "profile_image": "/public/burger.png"
   },
   {
     "_id":4,
     "name": "Michael Davis",
     "rating": 3,
     "review": "The food was good, but the service could have been faster. Still, a decent place for a nice meal.",
-    "profile_image": "https://example.com/profiles/michael_davis.jpg"
+    "profile_image": "/public/burger.png"
   },
   {
     "_id":5,
     "name": "Jennifer Lee",
     "rating": 5,
     "review": "I had a wonderful dining experience here. The atmosphere was charming, and the food was excellent. Will definitely return!",
-    "profile_image": "https://example.com/profiles/jennifer_lee.jpg"
+    "profile_image": "/public/burger.png"
   }
 ]
