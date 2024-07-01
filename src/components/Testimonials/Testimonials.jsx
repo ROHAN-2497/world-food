@@ -15,12 +15,12 @@ const Testimonials = () => {
       <div className="flex  items-center justify-between ">
         {" "}
         <h2 className="text-3xl">FRESH FROM OUR COMMUNITY</h2>
-        <h4 className="text-1xl font-medium">View All</h4>
+        <h4 className="text-1xl font-medium cursor-pointer">View All</h4>
       </div>
       <div className="flex gap-4">
         {reviews.map((review) => (
           <div className="border p-4" key={review._id}>
-            <div className="flex justify-between">
+            <div className="flex justify-between mb-4">
               {" "}
               <img
                 className="w-10 h-10 rounded-full "
