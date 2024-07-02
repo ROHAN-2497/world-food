@@ -12,7 +12,7 @@ const Testimonials = () => {
   }, []);
   return (
     <div className="w-[85%] mx-auto">
-      <div className="flex  items-center justify-between ">
+      <div className="flex my-10 items-center justify-between ">
         {" "}
         <h2 className="text-3xl">FRESH FROM OUR COMMUNITY</h2>
         <h4 className="text-1xl font-medium cursor-pointer">View All</h4>
@@ -34,7 +34,7 @@ const Testimonials = () => {
               <Rating
                 className=""
                 style={{ maxWidth: 80 }}
-                value={5}
+                value={review.rating}
                 readOnly
               />
               <p>
@@ -43,7 +43,6 @@ const Testimonials = () => {
               </p>
             </div>
             <div>
-              <p>58 MINUTES AGO</p>
               <div className="flex justify-between">
                 {" "}
                 <p className="font-semibold">REPLAY</p>
