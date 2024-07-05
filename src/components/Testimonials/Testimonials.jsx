@@ -11,7 +11,7 @@ const Testimonials = () => {
       .then((data) => setReviews(data));
   }, []);
   return (
-    <div className="w-[85%] mx-auto">
+    <div className="">
       <div className="md:flex my-10 items-center justify-between ">
         {" "}
         <h2 className="text-3xl">FRESH FROM OUR COMMUNITY</h2>

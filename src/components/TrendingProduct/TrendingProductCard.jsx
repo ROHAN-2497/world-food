@@ -1,6 +1,6 @@
 const TrendingProductCard = () => {
   return (
-    <div className="flex mt-10 gap-10">
+    <div className="md:flex mt-10 gap-10">
       <div className="flex flex-col border rounded cursor-pointer gap-4">
         <div>
           <img

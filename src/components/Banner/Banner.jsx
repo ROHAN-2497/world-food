@@ -1,7 +1,7 @@
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div className="banner mx-auto mt-10 mb-10">
+    <div className="banner mt-10 mb-10">
       {" "}
       <div className="flex flex-col text-white gap-4 pl-20 justify-center bg-gradient-to-r from-black bg-opacity-10 h-full  items-start ">
         {" "}

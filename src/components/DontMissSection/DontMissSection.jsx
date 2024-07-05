@@ -1,16 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-const Carving = () => {
+const DontMissSection = () => {
   return (
     <div className="cursor-pointer">
       <div>
-        <h3 className="text-3xl">WHAT WE'RE CRAVING</h3>
+        <h3 className="text-3xl">DON'T MISS</h3>
       </div>
       <div className="md:flex gap-10">
         <div className="flex flex-col mt-10">
           <div>
             <img
               className="object-cover w-[356px] "
-              src="public/40ICQT4pSCmcrECpJyCK_DSC05368-2.webp"
+              src="public/C0xk6rQSQT2OIILUpgyE_0S9A8983.webp"
               alt=""
             />
           </div>
@@ -20,7 +20,7 @@ const Carving = () => {
               {" "}
               <p className="font-bold">COLLECTION</p>
               <h3 className="text-3xl font-semibold">
-                27 FRESH TOMATO RECIPES FOR...
+                21 BEST SUMMER RECIPES FOR HOT...
               </h3>
             </div>
           </div>
@@ -28,8 +28,8 @@ const Carving = () => {
         <div className="flex flex-col mt-10">
           <div>
             <img
-              className="object-cover w-[351px] "
-              src="public/j4XpnNR3Sfiv8otvc5HS_cauliflower3.webp"
+              className="object-cover w-[356px] "
+              src="public/5DPuh7l0QOgenDaIYfW6_0S9A6534.webp"
               alt=""
             />
           </div>
@@ -39,7 +39,7 @@ const Carving = () => {
               {" "}
               <p className="font-bold">COLLECTION</p>
               <h3 className="text-3xl font-semibold">
-                50 VEGETARIAN <br /> RECIPES FOR...
+                24 BEST CORN RECIPES TO MAKE...
               </h3>
             </div>
           </div>
@@ -47,8 +47,8 @@ const Carving = () => {
         <div className="flex flex-col mt-10">
           <div>
             <img
-              className="object-cover w-[1000px] "
-              src="public/RDxdbGNvSMCdTDLEYy96_pieoyster-939.webp"
+              className=" w-[356px] "
+              src="public/QmQP2xL1QyOTq0Idbf1z_untitled-1226.webp"
               alt=""
             />
           </div>
@@ -58,7 +58,7 @@ const Carving = () => {
               {" "}
               <p className="font-bold">COLLECTION</p>
               <h3 className="text-3xl font-semibold">
-                16 BEST SUMMER RECIPES FOR TWO
+                50 QUICK & EASY SUMMER DINNER IDEAS...{" "}
               </h3>
             </div>
           </div>
@@ -68,4 +68,4 @@ const Carving = () => {
   );
 };
 
-export default Carving;
+export default DontMissSection;
