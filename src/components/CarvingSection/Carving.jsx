@@ -4,7 +4,7 @@ const Carving = () => {
       <img src="public/image copy 2.png" alt="" />
       {/* LEFT */}
       <h3 className="text-2xl font-semibold">Strategy Development</h3>
-      <div className="w-1/3">
+      <div className="w-1/3j">
         {/* JOB TITLE */}
         <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
           Learner{" "}
