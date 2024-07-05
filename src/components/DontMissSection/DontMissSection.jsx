@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const DontMissSection = () => {
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer mt-10">
       <div>
         <h3 className="text-3xl">DON'T MISS</h3>
       </div>
