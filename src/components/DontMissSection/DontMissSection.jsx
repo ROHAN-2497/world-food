@@ -58,7 +58,7 @@ const DontMissSection = () => {
               {" "}
               <p className="font-bold">COLLECTION</p>
               <h3 className="text-3xl font-semibold">
-                50 QUICK & EASY SUMMER DINNER IDEAS...{" "}
+                50 QUICK & EASY SUMMER DINNER...{" "}
               </h3>
             </div>
           </div>

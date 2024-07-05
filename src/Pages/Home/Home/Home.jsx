@@ -7,7 +7,7 @@ import TrendingProduct from "@/components/TrendingProduct/TrendingProduct";
 
 const Home = () => {
   return (
-    <div className="w-[85%] mx-auto">
+    <div className="w-[90%] mx-auto">
       <Banner />
       <Testimonials />
       <Carving />

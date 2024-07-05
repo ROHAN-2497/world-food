@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const Carving = () => {
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer mt-10">
       <div>
         <h3 className="text-3xl">WHAT WE'RE CRAVING</h3>
       </div>
@@ -28,7 +28,7 @@ const Carving = () => {
         <div className="flex flex-col mt-10">
           <div>
             <img
-              className="object-cover w-[351px] "
+              className="object-cover w-[356px] "
               src="public/j4XpnNR3Sfiv8otvc5HS_cauliflower3.webp"
               alt=""
             />
@@ -47,7 +47,7 @@ const Carving = () => {
         <div className="flex flex-col mt-10">
           <div>
             <img
-              className="object-cover w-[1000px] "
+              className="object-cover w-[356px] "
               src="public/RDxdbGNvSMCdTDLEYy96_pieoyster-939.webp"
               alt=""
             />
