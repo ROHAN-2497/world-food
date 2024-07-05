@@ -5,7 +5,7 @@ const Carving = () => {
       <div>
         <h3 className="text-3xl">WHAT WE'RE CRAVING</h3>
       </div>
-      <div className="flex gap-10">
+      <div className="md:flex gap-10">
         <div className="flex flex-col mt-10">
           <div>
             <img

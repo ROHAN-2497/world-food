@@ -12,12 +12,12 @@ const Testimonials = () => {
   }, []);
   return (
     <div className="w-[85%] mx-auto">
-      <div className="flex my-10 items-center justify-between ">
+      <div className="md:flex my-10 items-center justify-between ">
         {" "}
         <h2 className="text-3xl">FRESH FROM OUR COMMUNITY</h2>
         <h4 className="text-1xl font-medium cursor-pointer">View All</h4>
       </div>
-      <div className="flex gap-4">
+      <div className="md:flex gap-4">
         {reviews.map((review) => (
           <div className="border p-4" key={review._id}>
             <div className="flex justify-between mb-4">
