@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner/Banner";
-import Carving from "@/components/CarvingSection/Carving";
+import Carving from "@/components/Carving/Carving";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
 const Home = () => {
