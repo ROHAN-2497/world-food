@@ -12,7 +12,7 @@ const Navbar = () => {
   // Array containing navigation items
   const navItems = [
     { id: 1, text: "Home" },
-    { id: 2, text: "Company" },
+    { id: 2, text: "Menu" },
     { id: 3, text: "Resources" },
     { id: 4, text: "About" },
     { id: 5, text: "Contact" },
@@ -25,7 +25,7 @@ const Navbar = () => {
       </h1>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex  pr-20">
+      <ul className="hidden md:flex pr-20">
         {navItems.map((item) => (
           <li
             key={item.id}
