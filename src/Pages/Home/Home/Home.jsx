@@ -3,6 +3,7 @@ import Carving from "@/components/Carving/Carving";
 import DontMissSection from "@/components/DontMissSection/DontMissSection";
 import Explore from "@/components/Explore/Explore";
 import MoreIdeaSection from "@/components/MoreIdeaSection/MoreIdeaSection";
+import Recipe from "@/components/Recipe/Recipe";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import TrendingProduct from "@/components/TrendingProduct/TrendingProduct";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <TrendingProduct />
       <DontMissSection />
       <MoreIdeaSection />
+      <Recipe />
     </div>
   );
 };
