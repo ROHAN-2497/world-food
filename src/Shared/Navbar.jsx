@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
@@ -9,14 +10,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  // Array containing navigation items
-  const navItems = [
-    { id: 1, text: "Home" },
-    { id: 2, text: "Menu" },
-    { id: 3, text: "Resources" },
-    { id: 4, text: "About" },
-    { id: 5, text: "Contact" },
-  ];
   return (
     <div className=" flex justify-between items-center h-24  px-4 bg-black text-white">
       {/* Logo */}
@@ -26,14 +19,18 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex pr-20">
-        {navItems.map((item) => (
-          <li
-            key={item.id}
-            className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black"
-          >
-            {item.text}
-          </li>
-        ))}
+        <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
+          <Link to="/">Menu</Link>
+        </li>
+        <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
+          <Link to="/menu">Our Menu</Link>
+        </li>
+        <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
+          <Link to="/menu">Our Menu</Link>
+        </li>
+        <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
+          <Link to="/menu">Our Menu</Link>
+        </li>
       </ul>
 
       {/* Mobile Navigation Icon */}
@@ -55,14 +52,10 @@ const Navbar = () => {
         </h1>
 
         {/* Mobile Navigation Items */}
-        {navItems.map((item) => (
-          <li
-            key={item.id}
-            className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600"
-          >
-            {item.text}
-          </li>
-        ))}
+        <li className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600">
+          {" "}
+          <Link to="/menu">Our Menu</Link>
+        </li>
       </ul>
     </div>
   );
