@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-const Recipe = () => {
+const RecipeBar = () => {
   return (
     <div className="mt-20 md:flex">
       <div className="md:w-[70%]">
@@ -23,4 +23,4 @@ const Recipe = () => {
   );
 };
 
-export default Recipe;
+export default RecipeBar;

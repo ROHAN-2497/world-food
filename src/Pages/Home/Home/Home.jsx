@@ -3,13 +3,17 @@ import Carving from "@/components/Carving/Carving";
 import DontMissSection from "@/components/DontMissSection/DontMissSection";
 import Explore from "@/components/Explore/Explore";
 import MoreIdeaSection from "@/components/MoreIdeaSection/MoreIdeaSection";
-import Recipe from "@/components/Recipe/Recipe";
+import RecipeBar from "@/components/RecipeBar/RecipeBar";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import TrendingProduct from "@/components/TrendingProduct/TrendingProduct";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>World Food | Home Page</title>
+      </Helmet>
       <Banner />
       <Testimonials />
       <Carving />
@@ -17,7 +21,7 @@ const Home = () => {
       <TrendingProduct />
       <DontMissSection />
       <MoreIdeaSection />
-      <Recipe />
+      <RecipeBar />
     </div>
   );
 };

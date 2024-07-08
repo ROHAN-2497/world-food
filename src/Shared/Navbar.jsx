@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
-          <Link to="/menu">Menu</Link>
+          <Link to="/recipe">Recipe</Link>
         </li>
         <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
           <Link to="/menu">Menu</Link>
