@@ -26,10 +26,10 @@ const Navbar = () => {
           <Link to="/menu">Menu</Link>
         </li>
         <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
-          <Link to="/menu">Our Menu</Link>
+          <Link to="/menu">Menu</Link>
         </li>
         <li className="p-2 hover:bg-[#f5ce35] rounded m-2 cursor-pointer duration-300 hover:text-black">
-          <Link to="/menu">Our Menu</Link>
+          <Link to="/menu">Menu</Link>
         </li>
       </ul>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         {/* Mobile Navigation Items */}
         <li className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600">
           {" "}
-          <Link to="/menu">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600">
           {" "}

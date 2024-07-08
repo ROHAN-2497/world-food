@@ -2,10 +2,10 @@
 const Recipe = () => {
   return (
     <div className="mt-20 md:flex">
-      <div className="w-[70%]">
+      <div className="md:w-[70%]">
         <img src="public/picmtVAZB.webp" alt="" />
       </div>
-      <div className="w-[30%] p-8 border h-[400px]:">
+      <div className="md:w-[30%] p-8 border h-[400px]:">
         <div className=" h-[90%] bg-white flex flex-col gap-4">
           <p className="font-bold">RECIPE</p>
           <h3 className="text-xl font-semibold">HOW TO GRILL OYSTERS</h3>
