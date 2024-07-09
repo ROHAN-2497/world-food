@@ -1,6 +1,6 @@
 const Explore = () => {
   return (
-    <div className="">
+    <div className="mt-10">
       <div className="mb-10">
         <h3 className="text-3xl">EXPLORE MORE</h3>
       </div>

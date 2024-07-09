@@ -6,7 +6,7 @@ import { router } from "./Router/Routes";
 import { HelmetProvider } from "react-helmet-async";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode className="">
-    <div className="w-[85%] mx-auto">
+    <div className="">
       <HelmetProvider>
         <RouterProvider router={router} />
       </HelmetProvider>

@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-[85%] mx-auto">
       <Helmet>
         <title>World Food | Home Page</title>
       </Helmet>
