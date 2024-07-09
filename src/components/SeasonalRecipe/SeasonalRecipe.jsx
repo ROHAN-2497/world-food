@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const SeasonalRecipe = () => {
   return (
-    <div className="w-[85%] mx-auto">
+    <div>
       <div className="flex flex-col">
         {" "}
         <div className="w-[60%] py-10">
