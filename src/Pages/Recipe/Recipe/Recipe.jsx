@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import RecipeCover from "./RecipeCover";
 import SeasonalRecipe from "@/components/SeasonalRecipe/SeasonalRecipe";
 import Cover from "@/Shared/RecipeCover/Cover";
+import coverImg from "../../../../public/coverIMG.jpg";
 
 const Recipe = () => {
   return (
@@ -13,7 +14,7 @@ const Recipe = () => {
       <div className="w-[85%] mx-auto">
         {" "}
         <SeasonalRecipe />
-        <Cover />
+        <Cover img={coverImg} />
       </div>
     </div>
   );

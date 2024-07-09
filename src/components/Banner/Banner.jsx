@@ -1,7 +1,15 @@
-import "./Banner.css";
-const Banner = () => {
+/* eslint-disable react/prop-types */
+import Cover from "@/Shared/RecipeCover/Cover";
+const Banner = ({ img }) => {
   return (
-    <div className="banner mt-10 mb-10">
+    <div
+      className="object-cover h-[700px] mt-10 mb-10"
+      style={{
+        maxHeight: "700px",
+        objectFit: Cover,
+        backgroundImage: `url("${img}")`,
+      }}
+    >
       {" "}
       <div className="flex flex-col text-white gap-4 pl-20 justify-center bg-gradient-to-r from-black bg-opacity-10 h-full  items-start ">
         {" "}

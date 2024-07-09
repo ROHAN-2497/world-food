@@ -7,6 +7,7 @@ import RecipeBar from "@/components/RecipeBar/RecipeBar";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import TrendingProduct from "@/components/TrendingProduct/TrendingProduct";
 import { Helmet } from "react-helmet-async";
+import banner from "../../../../public/banner.webp";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <Helmet>
         <title>World Food | Home Page</title>
       </Helmet>
-      <Banner />
+      <Banner img={banner} />
       <Testimonials />
       <Carving />
       <Explore />
