@@ -3,6 +3,7 @@ import RecipeCover from "./RecipeCover";
 import SeasonalRecipe from "@/components/SeasonalRecipe/SeasonalRecipe";
 import Cover from "@/Shared/RecipeCover/Cover";
 import coverImg from "../../../../public/coverIMG.jpg";
+import SupportProduct from "@/components/SupportProduct/SupportProduct";
 
 const Recipe = () => {
   return (
@@ -14,7 +15,8 @@ const Recipe = () => {
       <div className="w-[85%] mx-auto">
         {" "}
         <SeasonalRecipe />
-        <Cover img={coverImg} />
+        <Cover img={coverImg} title="FAVORITE CANNING & PICKLING RECIPES" />
+        <SupportProduct />
       </div>
     </div>
   );
