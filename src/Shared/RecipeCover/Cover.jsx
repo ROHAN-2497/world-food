@@ -2,9 +2,10 @@
 const Cover = ({ img, title }) => {
   return (
     <div
-      className="h-[500px] mt-10 mb-10"
+      className="h-[1000px] mt-10 mb-10"
       style={{
         backgroundImage: `url("${img}")`,
+        backgroundSize: "contain",
       }}
     >
       {" "}
