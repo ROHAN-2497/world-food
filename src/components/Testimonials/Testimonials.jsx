@@ -31,12 +31,12 @@ const Testimonials = () => {
             </div>
             <div>
               <img src={"/public/O3flKPWrS0eQVldjLMwB_IMG_0423.webp"} alt="" />
-              <Rating
-                className=""
-                style={{ maxWidth: 80 }}
-                value={review.rating}
-                readOnly
-              />
+                <Rating
+                  className=""
+                  style={{ maxWidth: 80 }}
+                  value={review.rating}
+                  readOnly
+                />
               <p>
                 Delicious. I like patties cooked in pan with a little olive oil.
                 I used ground chuck roast.
