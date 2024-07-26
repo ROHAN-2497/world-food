@@ -1,11 +1,7 @@
 const RecipeCover = () => {
   return (
     <div>
-      <img
-        className="w-full h-[240px] object-cover"
-        src="public/mainCover.webp"
-        alt=""
-      />
+      <img className="w-full h-[240px]" src="public/mainCover.webp" alt="" />
     </div>
   );
 };
