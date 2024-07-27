@@ -3,7 +3,7 @@ const RecipeCover = () => {
     <div>
       <img
         className="object-cover w-full h-[240px]"
-        src="public/mainCover.webp"
+        src="/mainCover.webp"
         alt=""
       />
     </div>
