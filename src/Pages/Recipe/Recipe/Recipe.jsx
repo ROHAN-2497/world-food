@@ -5,6 +5,7 @@ import Cover from "@/Shared/RecipeCover/Cover";
 import coverImg from "../../../../public/coverIMG.jpg";
 import coverImg2 from "../../../../public/coverIMG2.jpg";
 import SupportProduct from "@/components/SupportProduct/SupportProduct";
+import Service from "@/components/Serviec/Service";
 
 const Recipe = () => {
   return (
@@ -23,6 +24,9 @@ const Recipe = () => {
         <SupportProduct />
       </div>{" "}
       <Cover img={coverImg2} title="QUICK & EASY SPRING DINNERS" />
+      <div className="w-[85%] mx-auto">
+        <Service />
+      </div>
     </div>
   );
 };
